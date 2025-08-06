@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: var(#69F0AE);
+}
+
+a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.cgap-24{
+    column-gap: 24px;
+}
