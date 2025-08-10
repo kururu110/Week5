@@ -3,7 +3,13 @@
   margin: 0 auto;
   padding: 48px 0px 48px 0px;
   align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #667F99;
   li{
-    padding: 8px 24px 8px 24px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+  }
+  .right{
+    color: #667F99;
   }
 }
